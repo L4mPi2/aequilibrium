@@ -3,14 +3,15 @@
 <suite name="Failed suite [Command line suite]">
   <test thread-count="5" name="Command line test(failed)">
     <classes>
-      <class name="testCases.LoginDummyTestSuite">
+      <class name="testCases.LoginTestSuite">
         <methods>
           <include name="initialize"/>
+          <include name="purchaseHappyPath"/>
           <include name="teardown"/>
           <include name="displayedElements"/>
           <include name="takeScreenshoot"/>
         </methods>
-      </class> <!-- testCases.LoginDummyTestSuite -->
+      </class> <!-- testCases.LoginTestSuite -->
     </classes>
   </test> <!-- Command line test(failed) -->
 </suite> <!-- Failed suite [Command line suite] -->

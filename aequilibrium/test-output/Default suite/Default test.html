@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>8/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Dec 10 13:19:45 PST 2019</td>
+<td>Started on:</td><td>Tue Dec 10 15:43:59 PST 2019</td>
 </tr>
-<tr><td>Total time:</td><td>32 seconds (32623 ms)</td>
+<tr><td>Total time:</td><td>23 seconds (23825 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,13 +76,14 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='testCases.LoginTestSuite.displayedElements()'><b>displayedElements</b><br>Test class: testCases.LoginTestSuite</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[contains(@h4, &apos; Failed On purpose&apos;)]
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[contains(@h4, &apos; Failed On purpose&apos;)]&quot;}
+  (Session info: chrome=78.0.3904.108)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;Guillermos-MBP.hitronhub.home&apos;, ip: &apos;fd00:a84e:3f46:c252:dcc2:308:27c:a2de%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_221&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 71.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191202093317, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 28914, moz:profile: /var/folders/hk/wsk9gz351mz..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 18.7.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 99e8ff63-e7e0-3142-9432-eab18d357cd7
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: /var/folders/hk/wsk9gz351mz...}, goog:chromeOptions: {debuggerAddress: localhost:53961}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 404291df2e05b01fbf99d403cf5af137
 *** Element info: {Using=xpath, value=//*[contains(@h4, &apos; Failed On purpose&apos;)]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -128,14 +129,15 @@ Session ID: 99e8ff63-e7e0-3142-9432-eab18d357cd7
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace2125470482", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2125470482'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[contains(@h4, &apos; Failed On purpose&apos;)]
+</pre></div><a href='#' onClick='toggleBox("stack-trace905080434", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace905080434'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[contains(@h4, &apos; Failed On purpose&apos;)]&quot;}
+  (Session info: chrome=78.0.3904.108)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
 System info: host: &apos;Guillermos-MBP.hitronhub.home&apos;, ip: &apos;fd00:a84e:3f46:c252:dcc2:308:27c:a2de%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.6&apos;, java.version: &apos;1.8.0_221&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 71.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191202093317, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 28914, moz:profile: /var/folders/hk/wsk9gz351mz..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 18.7.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 99e8ff63-e7e0-3142-9432-eab18d357cd7
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: /var/folders/hk/wsk9gz351mz...}, goog:chromeOptions: {debuggerAddress: localhost:53961}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 404291df2e05b01fbf99d403cf5af137
 *** Element info: {Using=xpath, value=//*[contains(@h4, &apos; Failed On purpose&apos;)]}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -182,7 +184,7 @@ Session ID: 99e8ff63-e7e0-3142-9432-eab18d357cd7
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>6</td>
+<td>5</td>
 <td>testCases.LoginTestSuite@2a17b7b6</td></tr>
 <tr>
 <td title='testCases.LoginTestSuite.purchaseHappyPath()'><b>purchaseHappyPath</b><br>Test class: testCases.LoginTestSuite</td>
@@ -218,8 +220,8 @@ Session ID: 99e8ff63-e7e0-3142-9432-eab18d357cd7
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace953528583", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace953528583'><pre>junit.framework.ComparisonFailure: expected:&lt;Total: $43.1...&gt; but was:&lt;Item total: $39.9...&gt;
+</pre></div><a href='#' onClick='toggleBox("stack-trace231725600", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace231725600'><pre>junit.framework.ComparisonFailure: expected:&lt;Total: $43.1...&gt; but was:&lt;Item total: $39.9...&gt;
 	at junit.framework.Assert.assertEquals(Assert.java:81)
 	at junit.framework.Assert.assertEquals(Assert.java:87)
 	at testCases.LoginTestSuite.purchaseHappyPath(LoginTestSuite.java:231)
@@ -252,7 +254,7 @@ Session ID: 99e8ff63-e7e0-3142-9432-eab18d357cd7
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>3</td>
+<td>4</td>
 <td>testCases.LoginTestSuite@2a17b7b6</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>

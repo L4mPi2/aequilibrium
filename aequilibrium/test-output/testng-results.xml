@@ -2,35 +2,37 @@
 <testng-results skipped="0" failed="2" ignored="0" total="10" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="32623" started-at="2019-12-10T13:19:45 PST" finished-at="2019-12-10T13:20:17 PST">
+  <suite name="Default suite" duration-ms="23825" started-at="2019-12-10T15:43:59 PST" finished-at="2019-12-10T15:44:22 PST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="32623" started-at="2019-12-10T13:19:45 PST" finished-at="2019-12-10T13:20:17 PST">
+    <test name="Default test" duration-ms="23825" started-at="2019-12-10T15:43:59 PST" finished-at="2019-12-10T15:44:22 PST">
       <class name="testCases.LoginTestSuite">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:testCases.LoginTestSuite@2a17b7b6]" name="initialize" is-config="true" duration-ms="10454" started-at="2019-12-10T13:19:45 PST" finished-at="2019-12-10T13:19:55 PST">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:testCases.LoginTestSuite@2a17b7b6]" name="initialize" is-config="true" duration-ms="2085" started-at="2019-12-10T15:43:59 PST" finished-at="2019-12-10T15:44:01 PST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method status="FAIL" signature="displayedElements()[pri:0, instance:testCases.LoginTestSuite@2a17b7b6]" name="displayedElements" duration-ms="6676" started-at="2019-12-10T13:19:55 PST" finished-at="2019-12-10T13:20:02 PST">
+        <test-method status="FAIL" signature="displayedElements()[pri:0, instance:testCases.LoginTestSuite@2a17b7b6]" name="displayedElements" duration-ms="5980" started-at="2019-12-10T15:44:01 PST" finished-at="2019-12-10T15:44:07 PST">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[Unable to locate element: //*[contains(@h4, ' Failed On purpose')]
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@h4, ' Failed On purpose')]"}
+  (Session info: chrome=78.0.3904.108)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'Guillermos-MBP.hitronhub.home', ip: 'fd00:a84e:3f46:c252:dcc2:308:27c:a2de%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_221'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 71.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191202093317, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 28914, moz:profile: /var/folders/hk/wsk9gz351mz..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 18.7.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 99e8ff63-e7e0-3142-9432-eab18d357cd7
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: /var/folders/hk/wsk9gz351mz...}, goog:chromeOptions: {debuggerAddress: localhost:53961}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 404291df2e05b01fbf99d403cf5af137
 *** Element info: {Using=xpath, value=//*[contains(@h4, ' Failed On purpose')]}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[contains(@h4, ' Failed On purpose')]
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[contains(@h4, ' Failed On purpose')]"}
+  (Session info: chrome=78.0.3904.108)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'Guillermos-MBP.hitronhub.home', ip: 'fd00:a84e:3f46:c252:dcc2:308:27c:a2de%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.6', java.version: '1.8.0_221'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 71.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20191202093317, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 28914, moz:profile: /var/folders/hk/wsk9gz351mz..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 18.7.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 99e8ff63-e7e0-3142-9432-eab18d357cd7
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.105 (60e2d8774a81..., userDataDir: /var/folders/hk/wsk9gz351mz...}, goog:chromeOptions: {debuggerAddress: localhost:53961}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 404291df2e05b01fbf99d403cf5af137
 *** Element info: {Using=xpath, value=//*[contains(@h4, ' Failed On purpose')]}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -82,7 +84,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- displayedElements -->
-        <test-method status="PASS" signature="takeScreenshoot(org.testng.ITestResult)[pri:0, instance:testCases.LoginTestSuite@2a17b7b6]" name="takeScreenshoot" is-config="true" duration-ms="267" started-at="2019-12-10T13:20:02 PST" finished-at="2019-12-10T13:20:02 PST">
+        <test-method status="PASS" signature="takeScreenshoot(org.testng.ITestResult)[pri:0, instance:testCases.LoginTestSuite@2a17b7b6]" name="takeScreenshoot" is-config="true" duration-ms="584" started-at="2019-12-10T15:44:07 PST" finished-at="2019-12-10T15:44:07 PST">
           <params>
             <param index="0">
               <value>
@@ -93,7 +95,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenshoot -->
-        <test-method status="FAIL" signature="purchaseHappyPath()[pri:0, instance:testCases.LoginTestSuite@2a17b7b6]" name="purchaseHappyPath" duration-ms="3491" started-at="2019-12-10T13:20:02 PST" finished-at="2019-12-10T13:20:05 PST">
+        <test-method status="FAIL" signature="purchaseHappyPath()[pri:0, instance:testCases.LoginTestSuite@2a17b7b6]" name="purchaseHappyPath" duration-ms="4933" started-at="2019-12-10T15:44:07 PST" finished-at="2019-12-10T15:44:12 PST">
           <exception class="junit.framework.ComparisonFailure">
             <message>
               <![CDATA[expected:<Total: $43.1...> but was:<Item total: $39.9...>]]>
@@ -137,7 +139,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- purchaseHappyPath -->
-        <test-method status="PASS" signature="takeScreenshoot(org.testng.ITestResult)[pri:0, instance:testCases.LoginTestSuite@2a17b7b6]" name="takeScreenshoot" is-config="true" duration-ms="242" started-at="2019-12-10T13:20:05 PST" finished-at="2019-12-10T13:20:06 PST">
+        <test-method status="PASS" signature="takeScreenshoot(org.testng.ITestResult)[pri:0, instance:testCases.LoginTestSuite@2a17b7b6]" name="takeScreenshoot" is-config="true" duration-ms="496" started-at="2019-12-10T15:44:12 PST" finished-at="2019-12-10T15:44:13 PST">
           <params>
             <param index="0">
               <value>
@@ -148,7 +150,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenshoot -->
-        <test-method status="PASS" signature="testLoginInvalidKeys(java.lang.String, java.lang.String)[pri:0, instance:testCases.LoginTestSuite@2a17b7b6]" name="testLoginInvalidKeys" duration-ms="454" started-at="2019-12-10T13:20:06 PST" data-provider="getNonRegisteredUsers" finished-at="2019-12-10T13:20:06 PST">
+        <test-method status="PASS" signature="testLoginInvalidKeys(java.lang.String, java.lang.String)[pri:0, instance:testCases.LoginTestSuite@2a17b7b6]" name="testLoginInvalidKeys" duration-ms="397" started-at="2019-12-10T15:44:13 PST" data-provider="getNonRegisteredUsers" finished-at="2019-12-10T15:44:13 PST">
           <params>
             <param index="0">
               <value>
@@ -164,7 +166,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginInvalidKeys -->
-        <test-method status="PASS" signature="testLoginInvalidKeys(java.lang.String, java.lang.String)[pri:0, instance:testCases.LoginTestSuite@2a17b7b6]" name="testLoginInvalidKeys" duration-ms="450" started-at="2019-12-10T13:20:06 PST" data-provider="getNonRegisteredUsers" finished-at="2019-12-10T13:20:07 PST">
+        <test-method status="PASS" signature="testLoginInvalidKeys(java.lang.String, java.lang.String)[pri:0, instance:testCases.LoginTestSuite@2a17b7b6]" name="testLoginInvalidKeys" duration-ms="372" started-at="2019-12-10T15:44:13 PST" data-provider="getNonRegisteredUsers" finished-at="2019-12-10T15:44:14 PST">
           <params>
             <param index="0">
               <value>
@@ -180,7 +182,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginInvalidKeys -->
-        <test-method status="PASS" signature="takeScreenshoot(org.testng.ITestResult)[pri:0, instance:testCases.LoginTestSuite@2a17b7b6]" name="takeScreenshoot" is-config="true" duration-ms="0" started-at="2019-12-10T13:20:06 PST" finished-at="2019-12-10T13:20:06 PST">
+        <test-method status="PASS" signature="takeScreenshoot(org.testng.ITestResult)[pri:0, instance:testCases.LoginTestSuite@2a17b7b6]" name="takeScreenshoot" is-config="true" duration-ms="0" started-at="2019-12-10T15:44:13 PST" finished-at="2019-12-10T15:44:13 PST">
           <params>
             <param index="0">
               <value>
@@ -191,7 +193,18 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenshoot -->
-        <test-method status="PASS" signature="testLoginInvalidKeys(java.lang.String, java.lang.String)[pri:0, instance:testCases.LoginTestSuite@2a17b7b6]" name="testLoginInvalidKeys" duration-ms="447" started-at="2019-12-10T13:20:07 PST" data-provider="getNonRegisteredUsers" finished-at="2019-12-10T13:20:07 PST">
+        <test-method status="PASS" signature="takeScreenshoot(org.testng.ITestResult)[pri:0, instance:testCases.LoginTestSuite@2a17b7b6]" name="takeScreenshoot" is-config="true" duration-ms="0" started-at="2019-12-10T15:44:14 PST" finished-at="2019-12-10T15:44:14 PST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginInvalidKeys status=SUCCESS method=LoginTestSuite.testLoginInvalidKeys(java.lang.String, java.lang.String)[pri:0, instance:testCases.LoginTestSuite@2a17b7b6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenshoot -->
+        <test-method status="PASS" signature="testLoginInvalidKeys(java.lang.String, java.lang.String)[pri:0, instance:testCases.LoginTestSuite@2a17b7b6]" name="testLoginInvalidKeys" duration-ms="377" started-at="2019-12-10T15:44:14 PST" data-provider="getNonRegisteredUsers" finished-at="2019-12-10T15:44:14 PST">
           <params>
             <param index="0">
               <value>
@@ -207,7 +220,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginInvalidKeys -->
-        <test-method status="PASS" signature="takeScreenshoot(org.testng.ITestResult)[pri:0, instance:testCases.LoginTestSuite@2a17b7b6]" name="takeScreenshoot" is-config="true" duration-ms="0" started-at="2019-12-10T13:20:07 PST" finished-at="2019-12-10T13:20:07 PST">
+        <test-method status="PASS" signature="takeScreenshoot(org.testng.ITestResult)[pri:0, instance:testCases.LoginTestSuite@2a17b7b6]" name="takeScreenshoot" is-config="true" duration-ms="0" started-at="2019-12-10T15:44:14 PST" finished-at="2019-12-10T15:44:14 PST">
           <params>
             <param index="0">
               <value>
@@ -218,18 +231,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenshoot -->
-        <test-method status="PASS" signature="takeScreenshoot(org.testng.ITestResult)[pri:0, instance:testCases.LoginTestSuite@2a17b7b6]" name="takeScreenshoot" is-config="true" duration-ms="1" started-at="2019-12-10T13:20:07 PST" finished-at="2019-12-10T13:20:07 PST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testLoginInvalidKeys status=SUCCESS method=LoginTestSuite.testLoginInvalidKeys(java.lang.String, java.lang.String)[pri:0, instance:testCases.LoginTestSuite@2a17b7b6] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- takeScreenshoot -->
-        <test-method status="PASS" signature="testLoginInvalidKeys(java.lang.String, java.lang.String)[pri:0, instance:testCases.LoginTestSuite@2a17b7b6]" name="testLoginInvalidKeys" duration-ms="468" started-at="2019-12-10T13:20:07 PST" data-provider="getNonRegisteredUsers" finished-at="2019-12-10T13:20:08 PST">
+        <test-method status="PASS" signature="testLoginInvalidKeys(java.lang.String, java.lang.String)[pri:0, instance:testCases.LoginTestSuite@2a17b7b6]" name="testLoginInvalidKeys" duration-ms="395" started-at="2019-12-10T15:44:14 PST" data-provider="getNonRegisteredUsers" finished-at="2019-12-10T15:44:14 PST">
           <params>
             <param index="0">
               <value>
@@ -245,7 +247,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginInvalidKeys -->
-        <test-method status="PASS" signature="takeScreenshoot(org.testng.ITestResult)[pri:0, instance:testCases.LoginTestSuite@2a17b7b6]" name="takeScreenshoot" is-config="true" duration-ms="0" started-at="2019-12-10T13:20:08 PST" finished-at="2019-12-10T13:20:08 PST">
+        <test-method status="PASS" signature="takeScreenshoot(org.testng.ITestResult)[pri:0, instance:testCases.LoginTestSuite@2a17b7b6]" name="takeScreenshoot" is-config="true" duration-ms="1" started-at="2019-12-10T15:44:14 PST" finished-at="2019-12-10T15:44:14 PST">
           <params>
             <param index="0">
               <value>
@@ -256,7 +258,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenshoot -->
-        <test-method status="PASS" signature="testLoginRightKeys(java.lang.String, java.lang.String)[pri:0, instance:testCases.LoginTestSuite@2a17b7b6]" name="testLoginRightKeys" duration-ms="711" started-at="2019-12-10T13:20:08 PST" data-provider="getRegisteredUsers" finished-at="2019-12-10T13:20:08 PST">
+        <test-method status="PASS" signature="testLoginRightKeys(java.lang.String, java.lang.String)[pri:0, instance:testCases.LoginTestSuite@2a17b7b6]" name="testLoginRightKeys" duration-ms="619" started-at="2019-12-10T15:44:14 PST" data-provider="getRegisteredUsers" finished-at="2019-12-10T15:44:15 PST">
           <params>
             <param index="0">
               <value>
@@ -272,7 +274,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginRightKeys -->
-        <test-method status="PASS" signature="takeScreenshoot(org.testng.ITestResult)[pri:0, instance:testCases.LoginTestSuite@2a17b7b6]" name="takeScreenshoot" is-config="true" duration-ms="1" started-at="2019-12-10T13:20:08 PST" finished-at="2019-12-10T13:20:08 PST">
+        <test-method status="PASS" signature="takeScreenshoot(org.testng.ITestResult)[pri:0, instance:testCases.LoginTestSuite@2a17b7b6]" name="takeScreenshoot" is-config="true" duration-ms="0" started-at="2019-12-10T15:44:15 PST" finished-at="2019-12-10T15:44:15 PST">
           <params>
             <param index="0">
               <value>
@@ -283,7 +285,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenshoot -->
-        <test-method status="PASS" signature="testLoginRightKeys(java.lang.String, java.lang.String)[pri:0, instance:testCases.LoginTestSuite@2a17b7b6]" name="testLoginRightKeys" duration-ms="5770" started-at="2019-12-10T13:20:08 PST" data-provider="getRegisteredUsers" finished-at="2019-12-10T13:20:14 PST">
+        <test-method status="PASS" signature="testLoginRightKeys(java.lang.String, java.lang.String)[pri:0, instance:testCases.LoginTestSuite@2a17b7b6]" name="testLoginRightKeys" duration-ms="5620" started-at="2019-12-10T15:44:15 PST" data-provider="getRegisteredUsers" finished-at="2019-12-10T15:44:21 PST">
           <params>
             <param index="0">
               <value>
@@ -299,7 +301,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginRightKeys -->
-        <test-method status="PASS" signature="takeScreenshoot(org.testng.ITestResult)[pri:0, instance:testCases.LoginTestSuite@2a17b7b6]" name="takeScreenshoot" is-config="true" duration-ms="1" started-at="2019-12-10T13:20:14 PST" finished-at="2019-12-10T13:20:14 PST">
+        <test-method status="PASS" signature="takeScreenshoot(org.testng.ITestResult)[pri:0, instance:testCases.LoginTestSuite@2a17b7b6]" name="takeScreenshoot" is-config="true" duration-ms="3" started-at="2019-12-10T15:44:21 PST" finished-at="2019-12-10T15:44:21 PST">
           <params>
             <param index="0">
               <value>
@@ -310,7 +312,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenshoot -->
-        <test-method status="PASS" signature="testLoginRightKeys(java.lang.String, java.lang.String)[pri:0, instance:testCases.LoginTestSuite@2a17b7b6]" name="testLoginRightKeys" duration-ms="867" started-at="2019-12-10T13:20:14 PST" data-provider="getRegisteredUsers" finished-at="2019-12-10T13:20:15 PST">
+        <test-method status="PASS" signature="testLoginRightKeys(java.lang.String, java.lang.String)[pri:0, instance:testCases.LoginTestSuite@2a17b7b6]" name="testLoginRightKeys" duration-ms="749" started-at="2019-12-10T15:44:21 PST" data-provider="getRegisteredUsers" finished-at="2019-12-10T15:44:21 PST">
           <params>
             <param index="0">
               <value>
@@ -326,7 +328,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginRightKeys -->
-        <test-method status="PASS" signature="takeScreenshoot(org.testng.ITestResult)[pri:0, instance:testCases.LoginTestSuite@2a17b7b6]" name="takeScreenshoot" is-config="true" duration-ms="0" started-at="2019-12-10T13:20:15 PST" finished-at="2019-12-10T13:20:15 PST">
+        <test-method status="PASS" signature="takeScreenshoot(org.testng.ITestResult)[pri:0, instance:testCases.LoginTestSuite@2a17b7b6]" name="takeScreenshoot" is-config="true" duration-ms="1" started-at="2019-12-10T15:44:21 PST" finished-at="2019-12-10T15:44:21 PST">
           <params>
             <param index="0">
               <value>
@@ -337,11 +339,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenshoot -->
-        <test-method status="PASS" signature="testMaskedPassword()[pri:0, instance:testCases.LoginTestSuite@2a17b7b6]" name="testMaskedPassword" duration-ms="122" started-at="2019-12-10T13:20:15 PST" finished-at="2019-12-10T13:20:15 PST">
+        <test-method status="PASS" signature="testMaskedPassword()[pri:0, instance:testCases.LoginTestSuite@2a17b7b6]" name="testMaskedPassword" duration-ms="196" started-at="2019-12-10T15:44:21 PST" finished-at="2019-12-10T15:44:22 PST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMaskedPassword -->
-        <test-method status="PASS" signature="takeScreenshoot(org.testng.ITestResult)[pri:0, instance:testCases.LoginTestSuite@2a17b7b6]" name="takeScreenshoot" is-config="true" duration-ms="1" started-at="2019-12-10T13:20:15 PST" finished-at="2019-12-10T13:20:15 PST">
+        <test-method status="PASS" signature="takeScreenshoot(org.testng.ITestResult)[pri:0, instance:testCases.LoginTestSuite@2a17b7b6]" name="takeScreenshoot" is-config="true" duration-ms="0" started-at="2019-12-10T15:44:22 PST" finished-at="2019-12-10T15:44:22 PST">
           <params>
             <param index="0">
               <value>
@@ -352,7 +354,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenshoot -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.LoginTestSuite@2a17b7b6]" name="teardown" is-config="true" duration-ms="2152" started-at="2019-12-10T13:20:15 PST" finished-at="2019-12-10T13:20:17 PST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testCases.LoginTestSuite@2a17b7b6]" name="teardown" is-config="true" duration-ms="933" started-at="2019-12-10T15:44:22 PST" finished-at="2019-12-10T15:44:22 PST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

@@ -1,0 +1,45 @@
+LOGIN Test Cases
+
+General Considerations:
+
+> Although this page doesn't have Registration or Forgot Password page to validate, I'm still considering those hypotethical scenarios, since in the real life they are always gonna be present.
+
+>I will label the cases as Functional and non-Functional as well as Positive or Negative.
+
+> I would use a template with certain format to write test cases but the requirements specifies that I should write them with a .txt extension. So, despite the format requirement is a limitation, I'll be sticking to that.
+
+> You might find some tests that don't apply to this particular Login Page, still I've included them beacuse they apply in real scenarios.
+
+
+1.  Verify Visibility of all the elements in the page.
+2.  Verify that all the links are working.
+3.  Verify if a user will be able to login with a valid username and valid password.
+4.  Verify if a user cannot login with a valid username and an invalid password.
+5.  Verify the login page for both, when the field is blank and Submit button is clicked.
+6.  Verify the ‘Forgot Password’ functionality.
+7.  Verify the messages for invalid login.
+8.  Verify the ‘Remember Me’ functionality.
+9.  Verify if the data in password field is masked.
+10. Verify if a user is able to login with a new password password is changed.
+11. Verify if the login page allows to log in simultaneously with different credentials in a different browser.
+12. Verify if the ‘Enter’ key of the keyboard is working correctly on the login page.
+13. Verify if a user cannot exceed the specified chars range in each field (Username and Password).
+14. Verify the login page by pressing ‘Back button’/'Forward button'. It should allow you to login right after logout.
+15. Verify the timeout functionality of the login session.Security.Performance
+16. Verify login with different credentials same browser at the same time.
+17. Verify login with the same credentials in different browsers at the same time.Security
+18. Verify the Login page against SQL injection attack.    Security.
+19. Verify SSL certificate.Security.
+20. Verify weak passwords.
+21. Verify messages for each mandatory field.
+22. Verify time taken to log in with a valid username and password.Performance.
+23. Verify Login page's CSS and HTML Attributes and Values meet the Client requirements.UI.
+24. Verify ‘Cancel’ button available to erase the entered text.    Usability Testing
+25. Verify Login page and all its controls in different browsers    Browser Compatibility.
+26. Verify the minimum length (say 8 characters) for password field.
+27. Verify that Encrypted Password should not be able to be copy-pasted anywhere. Security.
+28. Verify that the Password is not being stored in browser cookies. Security.
+29. Verify the Number of invalid attempts for username/password.Security.
+30. Verify that you're not able to access any page url without first getting to the login. Security.
+31. Verify request ID and URL url while processing your request.Security.
+32. Verify deletion of ID while browsing.Security.
